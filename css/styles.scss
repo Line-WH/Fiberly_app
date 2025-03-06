@@ -10,7 +10,11 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+	"leafy": #A3966A,
+	"mahogany": #340B00,
+	"cinnamon": #90553C,
+	"sandstone": #FFFEF2,
+	"mesa": #E3CDBB
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,3 +22,20 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.body {
+	color: #E3CDBB;
+}
+
+.navbar {
+	background: #340B00;
+}
+
+.navbar-brand {
+	color: #FFFEF2;
+	font-family: "Playfair Display", serif;
+}
+
+.btn {
+	color: #FFFEF2;
+}
