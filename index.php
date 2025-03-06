@@ -22,8 +22,11 @@ require "settings/init.php";
 </head>
 
 <body>
+    <?php include 'header.php' ?>
 
-<h1>Det virker 🥳</h1>
+    <h1>Velkommen til Fiberly</h1>
+
+    <?php include 'navmenu.php' ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
