@@ -1,9 +1,9 @@
 <?php
 ?>
 
-<nav class="navbar">
+<nav class="navbar header">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"> Fiberly
+        <a class="header-brand" href="#"> Fiberly
         </a>
     </div>
 </nav>

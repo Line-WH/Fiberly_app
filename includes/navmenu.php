@@ -2,25 +2,31 @@
 ?>
 
 <nav class="navbar fixed-bottom">
-    <form class="container-fluid justify-content-center">
-        <button class="btn" type="button">
-            <img src="" alt="home">
+    <form class="container navbar-container">
+
+        <button class="btn custom-btn" type="button">
+            <img src="../images/hjem.png" alt="home">
+            <span>Hjem</span>
         </button>
 
-        <button class="btn" type="button">
-        <img src="" alt="lager">
+        <button class="btn custom-btn" type="button">
+            <img src="../images/lager.png" alt="lager">
+            <span>Lager</span>
         </button>
 
-        <button class="btn" type="button">
-            <img src="" alt="projeker">
+        <button class="btn custom-btn" type="button">
+            <img src="../images/projekter.png" alt="projeker">
+            <span>Projekter</span>
         </button>
 
-        <button class="btn" type="button">
-            <img src="" alt="læring">
+        <button class="btn custom-btn" type="button">
+            <img src="../images/læring.png" alt="læring">
+            <span>Lær</span>
         </button>
 
-        <button class="btn" type="button">
-            <img src="" alt="fællesskab">
+        <button class="btn custom-btn" type="button">
+            <img src="../images/community.png" alt="fællesskab">
+            <span>Fællesskab</span>
         </button>
 
     </form>

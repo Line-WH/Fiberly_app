@@ -27,15 +27,62 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	color: #E3CDBB;
 }
 
-.navbar {
-	background: #340B00;
-}
+//header styling
 
-.navbar-brand {
+.header-brand {
 	color: #FFFEF2;
 	font-family: "Playfair Display", serif;
 }
 
-.btn {
-	color: #FFFEF2;
+// bemærk at navbar klassen er både headeren og footeren
+
+.navbar {
+	background: #340B00;
 }
+
+
+// footer / navigations menu styling
+
+.custom-btn {
+	background: none;
+	border: none;
+	color: #FFFEF2;
+	font-family: "lato", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	width: 30px;
+	flex-shrink: 0;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: space-around !important;
+	align-items: center;
+	gap: 5px;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 425px) { /* Mobile view */
+	.custom-btn {
+		width: 25px;
+		font-size: 12px;
+	}
+	.navbar-container {
+		justify-content: center;
+		gap: 2px;
+	}
+}
+
+@media (min-width: 769px) { /* Tablet and up */
+	.navbar-container {
+		justify-content: space-evenly;
+		gap: 20px;
+	}
+}
+
+
+
+
+
