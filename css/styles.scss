@@ -82,6 +82,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 }
 
+.container {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 
 
 
