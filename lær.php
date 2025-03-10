@@ -36,7 +36,3 @@ require "settings/init.php";
     </html>
 
 
-<?php
-include ("includes/header.php");
-include ("includes/navmenu.php");
-?>
