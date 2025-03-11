@@ -29,108 +29,38 @@ require "settings/init.php";
     include("includes/header.php");
     include("includes/navmenu.php");
     ?>
+
+    <br>
+    <br>
+    <div class="d-flex justify-content-center">
+        <h5 class="text-mahogany">Lyst til at lære noger nyt?</h5>
+    </div>
+    <br>
+    <br>
+    <div class="container d-flex justify-content-center">
+        <ul class="list-group">
+            <li class="list-group-item text-mahogany py-4 rounded">Lær hvordan man hækler oldemor firkanter</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Hvordan er det nu med ret og vrang</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Lær hvordan man strikker fine mønstre</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Sådan tjekker du din strikkefasthed</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Sådan redder du en tabt maske</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Strikkeguide til forårets fineste sweater</li>
+            <br>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
 <br>
     <br>
-
-
-<div class="container d-flex align-items-center">
-<div>
-    <img src="images/profil_alice.jpg" class="profile-img">
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"></label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hvad har du på hjertet?">
-    </div>
-</div>
-
-<br>
-    <br>
-
-
-
-    <br>
-    <br>
-
-
-    </div>
-    <div class="card mb-3 m-3" style="max-width: 540px;">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="images/fælleskab1.jpg" class="img-fluid rounded-start" alt="baby knit">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <img src="" class="profile-img"> <h5 class="card-title">Bente</h5>
-                    <p class="card-text">Se hvad jeg har lavet til mit barnebarn</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<div>
-    <button type="button" class="btn btn-mahogany text-mesa"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> Kommenter / like
-    </button>
-</div>
-    <br>
-    <br>
-
-
-    <div class="card mb-3 m-3" style="max-width: 540px;">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="images/fælleskab%202.jpg" class="img-fluid rounded-start" alt="hvor mange grader">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <img src="" class="profile-img"> <h5 class="card-title">Pia</h5>
-                    <p class="card-text">Nogen der ved hvor mange grander man må vaske dette garn på?</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 25 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <button type="button" class="btn btn-mahogany text-mesa"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> Kommenter / like
-        </button>
-    </div>
-
-    <br>
-    <br>
-    <div class="card mb-3 m-3" style="max-width: 540px;">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="images/fælleskab3.jpg" class="img-fluid rounded-start" alt="hvor mange grader">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <img src="" class="profile-img"> <h5 class="card-title">Marianne</h5>
-                    <p class="card-text">Se lige en fin bøllehat jeg har hæklet - jeg har brugt denne opsktift?</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 45 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <button type="button" class="btn btn-mahogany text-mesa"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> Kommenter / like
-        </button>
-    </div>
-                <br>
-                <br>
-                <br>
-    <br>
-    <br>
-    <br>
-
-
-
-
-
-
-
-
 
 
 
