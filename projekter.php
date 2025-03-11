@@ -24,7 +24,8 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="bg-mesa">
+<body>
+
 <?php
 include("includes/header.php");
 include("includes/navmenu.php");
