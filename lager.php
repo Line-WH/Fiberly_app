@@ -29,6 +29,45 @@ require "settings/init.php";
 include("includes/header.php");
 include("includes/navmenu.php");
 ?>
+<div class="container">
+    <div class="row w-100">
+        <div class="col-12">
+            <h1>Dit garnlager</h1>
+        </div>
+    </div>
+    <div class="row gy-3 w-100">
+        <h3>Dét har du på lager</h3>
+        <?php
+        $sql = "SELECT * FROM garnlager ORDER BY garnNavn ASC";
+        $garnlager = $db->sql($sql);
+        foreach($garnlager as $garn) {
+            ?>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>
+                            <?php
+                            echo $garn->garnNavn;
+                            ?>
+                        </h2>
+                    </div>
+                    <div class="card-body">
+                        <?php
+                        echo $garn->garnFarve;
+                        ?>
+                        <br>
+                        Materiale: <?php echo $garn->garnMateriale ?>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+                </div>
+            </div>
+            <?php
+        }
+        ?>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
