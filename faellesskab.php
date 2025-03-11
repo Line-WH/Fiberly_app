@@ -30,6 +30,40 @@ require "settings/init.php";
     include("includes/navmenu.php");
     ?>
 
+    <br>
+    <br>
+<div class="d-flex justify-content-center">
+    <h5 class="text-mahogany">Lyst til at lære noger nyt?</h5>
+</div>
+    <br>
+    <br>
+    <div class="container d-flex justify-content-center">
+        <ul class="list-group">
+            <li class="list-group-item text-mahogany py-4 rounded">Lær hvordan man hækler oldemor firkanter</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Hvordan er det nu med ret og vrang</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Lær hvordan man strikker fine mønstre</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Sådan tjekker du din strikkefasthed</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Sådan redder du en tabt maske</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Strikkeguide til forårets fineste sweater</li>
+            <br>
+        </ul>
+    </div>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     </html>
