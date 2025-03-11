@@ -25,11 +25,51 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="bg-mesa">
+<body>
     <?php
     include("includes/header.php");
     include("includes/navmenu.php");
     ?>
+
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <section class="welcome-box pt-5 pb-2 text-center shadow-sm">
+                    <h2> Velkommen Alice </h2>
+                </section>
+
+                <section class="mt-3">
+                    <div class="continue-card">
+                        <h3> Fortsæt fra hvor du slap </h3>
+                        <img src="images/projekter1.jpg" class="img-fluid" alt="">
+                    </div>
+                </section>
+
+                <section class="mt-3">
+                    <h3> Catch up med dit fællesskab </h3>
+                    <div class="row">
+                        <!-- Karusel her-->
+
+                    </div>
+                </section>
+
+                <section class="mt-3">
+                    <h3> Lær mere </h3>
+                    <!--links til lær her-->
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="learn-gallery">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
