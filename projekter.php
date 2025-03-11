@@ -60,33 +60,33 @@ include("includes/navmenu.php");
                 </div>
             </div>
         </div>
-</div>
-<br>
-<br>
-<br>
+    </div>
+    <br>
+    <br>
+    <br>
 
-<h4 class="text-mahogany text-center">-Foråts sweater-</h4>
-<br>
-<br>
-<div class="container d-flex justify-content-center">
-    <ul class="list-group">
-        <li class="list-group-item text-mahogany py-4 rounded">Amigo chunky</li>
-        <br>
-        <li class="list-group-item text-mahogany py-4 rounded">Pindestørrelse: <br> 7mm</li>
-        <br>
-        <li class="list-group-item text-mahogany py-4 rounded">Du er nået hertil: <br> Række 27</li>
-    </ul>
-</div>
-
-
-
-
+    <h4 class="text-mahogany text-center">-Foråts sweater-</h4>
+    <br>
+    <br>
+    <div class="container d-flex justify-content-center">
+        <ul class="list-group">
+            <li class="list-group-item text-mahogany py-4 rounded">Amigo chunky</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Pindestørrelse: <br> 7mm</li>
+            <br>
+            <li class="list-group-item text-mahogany py-4 rounded">Du er nået hertil: <br> Række 27</li>
+        </ul>
+    </div>
+    <br>
+    <br>
 
 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
