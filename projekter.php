@@ -30,6 +30,62 @@ include("includes/header.php");
 include("includes/navmenu.php");
 ?>
 
+<br>
+<br>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/projekter4.jpg" class="card-img-top" alt="biled1">
+                <div class="card-body">
+                    <h5 class="card-title">Grøn ynglings sweater</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/projekter3.jpg" class="card-img-top" alt="billed2">
+                <div class="card-body">
+                    <h5 class="card-title">Forårs sweater</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/projekter5.jpg" class="card-img-top" alt="billed3">
+                <div class="card-body">
+                    <h5 class="card-title">Sofa tæppe</h5>
+                </div>
+            </div>
+        </div>
+</div>
+<br>
+<br>
+<br>
+
+<h4 class="text-mahogany text-center">-Foråts sweater-</h4>
+<br>
+<br>
+<div class="container d-flex justify-content-center">
+    <ul class="list-group">
+        <li class="list-group-item text-mahogany py-4 rounded">Amigo chunky</li>
+        <br>
+        <li class="list-group-item text-mahogany py-4 rounded">Pindestørrelse: <br> 7mm</li>
+        <br>
+        <li class="list-group-item text-mahogany py-4 rounded">Du er nået hertil: <br> Række 27</li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
