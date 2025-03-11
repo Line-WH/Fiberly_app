@@ -77,6 +77,8 @@ include("includes/header.php");
         const raekkerPer10cm = parseFloat(document.getElementById("raekkerPer10cm").value);
         const meterPerNoegle = parseFloat(document.getElementById("meterPerNoegle").value);
 
+        console.log(bredde);
+
         // Sikrer at input er gyldigt
         if (isNaN(bredde) || isNaN(laengde) || isNaN(maskerPer10cm) || isNaN(raekkerPer10cm) || isNaN(meterPerNoegle) || meterPerNoegle <= 0) {
             document.getElementById("resultat").innerText = "Indtast venligst gyldige tal.";
