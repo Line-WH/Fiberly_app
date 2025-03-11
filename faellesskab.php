@@ -60,7 +60,7 @@ require "settings/init.php";
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <img src="" class="profile-img"> <h5 class="card-title">Bente</h5>
+                    <img src="images/profil-bente.jpg" class="profile-img"> <h5 class="card-title">Bente</h5>
                     <p class="card-text">Se hvad jeg har lavet til mit barnebarn</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
@@ -84,7 +84,7 @@ require "settings/init.php";
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <img src="" class="profile-img"> <h5 class="card-title">Pia</h5>
+                    <img src="images/Pia-fællesskab.jpg" class="profile-img"> <h5 class="card-title">Pia</h5>
                     <p class="card-text">Nogen der ved hvor mange grander man må vaske dette garn på?</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 25 mins ago</small></p>
                 </div>
