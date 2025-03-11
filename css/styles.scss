@@ -113,7 +113,7 @@ body {
 }
 
 .continue-card {
-	background: rgba(0, 0, 0, 0.3);
+	background: #90553C;
 	color: #FFFEF2;
 	padding: 20px;
 	border-radius: 8px;
@@ -124,6 +124,10 @@ body {
 	height: 100px;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
+}
+
+.carousel-item img {
+	border-radius: 10px;
 }
 
 

@@ -41,30 +41,57 @@ require "settings/init.php";
                 <section class="mt-3">
                     <div class="continue-card">
                         <h3> Fortsæt fra hvor du slap </h3>
-                        <img src="images/projekter1.jpg" class="img-fluid" alt="">
+                        <a href="projekter.php">
+                            <img src="images/projekter1.jpg" class="img-fluid rounded" alt="">
+                        </a>
                     </div>
                 </section>
 
                 <section class="mt-3">
                     <h3> Catch up med dit fællesskab </h3>
-                    <div class="row">
-                        <!-- Karusel her-->
+                    <div id="communityCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="faellesskab.php">
+                                    <img src="images/fælleskab3.jpg" class=" img-fluid rounded" alt="">
+                                    <div class="carousel-caption p-2 text-sandstone bg-cinnamon rounded"> Marianne har postet et billed! </div>
+                                </a>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="faellesskab.php">
+                                    <div class="carousel-caption p-2 text-sandstone bg-cinnamon rounded"> Bente har postet en update! </div>
+                                    <img src="images/fælleskab1.jpg" class=" img-fluid rounded" alt="">
+
+                                </a>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#communityCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#communityCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
 
                     </div>
                 </section>
 
                 <section class="mt-3">
                     <h3> Lær mere </h3>
-                    <!--links til lær her-->
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="learn-gallery">
+                    <!-- lær mere containers her -->
+                </section>
 
-                            </div>
+                <section class="mt-3">
+                    <h3> Prøv vores nye garn-beregner </h3>
+                    <div class="row">
+                        <div class="col text-center mt-2">
+                            <button class="btn btn-cinnamon text-sandstone"> Beregn garnforbrug </button>
                         </div>
                     </div>
                 </section>
-
             </div>
         </div>
     </div>
