@@ -4,6 +4,18 @@
  */
 
 require "settings/init.php";
+
+if (!empty($_POST["data"])) {
+    $data = $_POST["data"];
+
+    $sql = "INSERT INTO garnlager (garnNavn, garnFarve, garnStrPind, garnStrNaal, garnMateriale, garnStatus, garnAntal) VALUES (:garnNavn, :garnFarve, :garnStrPind, :garnStrNaal, :garnMateriale, :garnAntal, :garnStatus, :garnAntal)";
+    $bind = [":garnNavn" => $data["garnNavn"], ":garnFarve" => $data["garnFarve"], ":garnStrPind" => $data["garnStrPind"], ":garnStrNaal" => $data["garnStrNaal"], ":garnMateriale" => $data["garnMateriale"], ":garnStatus" => $data["garnStatus"], ":garnAntal" => $data["garnAntal"]];
+
+    $db->sql($sql, $bind, false);
+
+    echo "Dit garn er nu tilføjet til lageret. <a href='lager.php'>Opret mere</a>";
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="da">
@@ -33,6 +45,72 @@ include("includes/navmenu.php");
     <div class="row w-100">
         <div class="col-12">
             <h1>Dit garnlager</h1>
+        </div>
+
+        <div class="col-12">
+            <div class="accordion" id="addGarn">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Tilføj garn til dit lager
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#addGarn">
+                        <div class="accordion-body">
+
+                            <form action="lager.php" method="post" enctype="multipart/form-data">
+                                <div class="row g-3 my-2">
+                                    <div class="col-12">
+                                        <p class="m-0 p-0">Udfyld oplysningerne om dit garn</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="garnNavn" name="data[garnNavn]" placeholder="Garnets navn">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="garnFarve" name="data[garnFarve]" placeholder="Farve">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="garnMateriale" name="data[garnMateriale]" placeholder="Materiale">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="number" class="form-control" id="garnStrPind" name="data[garnStrPind]" placeholder="Størrelse på strikkepinde">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="number" class="form-control" id="garnStrNaal" name="data[garnStrNaal]" placeholder="Størrelse på hæklenål">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="number" class="form-control" id="garnAntal" name="data[garnAntal]" placeholder="Antal nøgler">
+                                    </div>
+                                    <fieldset class="row mt-3">
+                                        <legend class="col-form-label col-sm-6 pt-0">Er der brugt noget af garnnøglerne?</legend>
+                                        <div class="col-sm-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="garnStatus" id="garnStatusJa" value="1" required>
+                                                <label class="form-check-label" for="garnStatusJa">
+                                                    Ja
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="garnStatus" id="garnStatusNej" value="0" required>
+                                                <label class="form-check-label" for="garnStatusNej">
+                                                    Nej
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="col-12">
+                                        <label for="formFile" class="form-label">Upload et billede af garnet</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                    <div class="col-auto mt-4 mb-2">
+                                        <button type="submit" class="btn btn-primary w-100">Tilføj garn til lager</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row gy-3 w-100">

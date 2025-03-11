@@ -31,10 +31,7 @@ include("includes/header.php");
 include("includes/navmenu.php");
 ?>
 
-<br>
-<br>
-<br>
-<br>
+
 <div class="container-fluid">
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -66,7 +63,7 @@ include("includes/navmenu.php");
     <br>
     <br>
 
-    <h4 class="text-mahogany text-center">-Foråts sweater-</h4>
+    <h4 class="text-mahogany text-center">-Forårs sweater-</h4>
     <br>
     <br>
     <div class="container d-flex justify-content-center">
@@ -80,8 +77,6 @@ include("includes/navmenu.php");
     </div>
     <br>
     <br>
-
-
 
 
 
