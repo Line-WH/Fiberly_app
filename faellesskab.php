@@ -30,27 +30,21 @@ require "settings/init.php";
     include("includes/navmenu.php");
     ?>
 
-    <br>
-    <br>
 
 
-    <div class="container d-flex align-items-center">
-        <div>
-            <img src="images/profil_alice.jpg" class="profile-img">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label"></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hvad har du på hjertet?">
+    <div class="card mb-3 m-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-8">
+                <div class="card-body d-flex align-items-center">
+                    <img src="images/profil_alice.jpg" class="profile-img">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hvad har du på hjertet?">
+                </div>
             </div>
         </div>
+    </div>
 
-        <br>
-        <br>
-
-
-
-        <br>
-        <br>
-
+    <br>
 
     </div>
     <div class="card mb-3 m-3" style="max-width: 540px;">
@@ -106,7 +100,7 @@ require "settings/init.php";
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <img src="" class="profile-img"> <h5 class="card-title">Marianne</h5>
+                    <img src="images/profil-marianne.jpg" class="profile-img"> <h5 class="card-title">Marianne</h5>
                     <p class="card-text">Se lige en fin bøllehat jeg har hæklet - jeg har brugt denne opsktift?</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 45 mins ago</small></p>
                 </div>
