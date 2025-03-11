@@ -65,7 +65,7 @@ include("includes/navmenu.php");
     <br>
     <br>
 
-    <h4 class="text-mahogany text-center">-Foråts sweater-</h4>
+    <h4 class="text-mahogany text-center">-Forårs sweater-</h4>
     <br>
     <br>
     <div class="container d-flex justify-content-center">
