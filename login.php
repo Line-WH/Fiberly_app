@@ -29,7 +29,8 @@ require "settings/init.php";
     <?php
     include("includes/header.php");
     ?>
-
+<br>
+    <br>
 <br>
     <br>
 <div class="d-flex justify-content-center">
