@@ -25,8 +25,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-.body {
-	color: #E3CDBB;
+body {
+	background-color: #E3CDBB;
+	padding-bottom: 100px;
 }
 
 //header styling

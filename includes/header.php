@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<nav class="navbar header">
+<nav class="navbar header fixed-top">
     <div class="container-fluid">
         <a class="header-brand" href="#"> Fiberly
         </a>
