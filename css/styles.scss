@@ -3,6 +3,8 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
