@@ -60,12 +60,11 @@ include("includes/header.php");
     <br>
     <br>
 
-<?php
 
-    include("includes/navmenu.php");
-    ?>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
+
+<script>
 
     document.getElementById("garnForm").addEventListener("submit", function(event) {
         event.preventDefault();
@@ -82,6 +81,7 @@ include("includes/header.php");
         // Sikrer at input er gyldigt
         if (isNaN(bredde) || isNaN(laengde) || isNaN(maskerPer10cm) || isNaN(raekkerPer10cm) || isNaN(meterPerNoegle) || meterPerNoegle <= 0) {
             document.getElementById("resultat").innerText = "Indtast venligst gyldige tal.";
+            console.log("ugyldige data i inputfelt");
             return;
         }
 
@@ -101,8 +101,8 @@ include("includes/header.php");
         // Vis resultat
         document.getElementById("resultat").innerText = `Du skal bruge cirka ${noeglerNødvendigt} nøgle(r) garn.`;
     });
-
 </script>
+
 
 </body>
 
