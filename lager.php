@@ -202,22 +202,32 @@ include("includes/navmenu.php");
             ?>
             <div class="col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h2>
-                            <?php
-                            echo $garn->garnNavn;
-                            ?>
-                        </h2>
-                    </div>
-                    <div class="card-body">
-                        <?php
-                        echo $garn->garnFarve;
-                        ?>
-                        <br>
-                        Materiale: <?php echo $garn->garnMateriale ?>
-                    </div>
-                    <div class="card-footer">
+                    <div class="row">
+                        <div class="col-4">
+                            <?php if (!empty($garn->garnBillede)) : ?>
+                                <img src="<?= htmlspecialchars($garn->garnBillede); ?>" alt="Billede af <?= htmlspecialchars($garn->garnNavn); ?>" class="img-fluid" style="max-width: 200px;">
+                            <?php else : ?>
+                                <img src="images/intet-billede.png" class="img-fluid" style="max-width: 200px;">
+                            <?php endif; ?>
+                        </div>
+                        <div class="col-8">
+                            <div class="card-header">
+                                <h2>
+                                    <?php
+                                    echo $garn->garnNavn;
+                                    ?>
+                                </h2>
+                            </div>
 
+                            <div class="card-body">
+                            </div>
+
+                            <div class="card-footer">
+                                <?php
+                                echo $garn->garnFarve;
+                                ?> <br>
+                                Materiale: <?php echo $garn->garnMateriale ?>
+                            </div>
                     </div>
                 </div>
             </div>
