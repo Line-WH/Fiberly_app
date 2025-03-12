@@ -31,14 +31,14 @@ require "settings/init.php";
     include("includes/navmenu.php");
     ?>
 
-    <div class="container ">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <section class="welcome-box pt-5 pb-2 text-center shadow-sm">
                     <h2> Velkommen Alice </h2>
                 </section>
 
-                <section class="mt-3">
+                <section class="mt-3 p-3">
                     <div class="custom-card ">
                         <a href="projekter.php" class="overlay-link">
                             <img src="images/projekter1.jpg" class="img-fluid rounded" alt="">
@@ -49,7 +49,7 @@ require "settings/init.php";
                     </div>
                 </section>
 
-                <section class="mt-3">
+                <section class="mt-3 p-3">
                     <h3> Catch up med dit fællesskab </h3>
                     <div id="communityCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -81,24 +81,24 @@ require "settings/init.php";
                     </div>
                 </section>
 
-                <section class="mt-3">
+                <section class="mt-3 p-3">
+                    <h3> Lær mere </h3>
                     <div class="custom-card">
                         <a href="laer.php" class="overlay-link">
                             <img src="images/fælleskab%202.jpg" class="img-fluid rounded" alt="">
                             <div class="card-overlay">
-                                <h3 class="overlay-text"> Lær mere </h3>
+                                <h3 class="overlay-text"> Hvordan er det med ret og vrang? </h3>
                             </div>
                         </a>
                     </div>
                 </section>
 
-                <section class="mt-3">
+                <section class="mt-3 p-3">
                     <h3> Prøv vores nye garn-beregner </h3>
                     <a class="row">
                         <a class="col mt-2" href="beregner.php">
                             <button class="btn reg-btn"> Beregn garnforbrug </button>
                         </a>
-                    </div>
                 </section>
             </div>
         </div>
