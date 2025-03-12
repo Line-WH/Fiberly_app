@@ -25,11 +25,86 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="bg-mesa">
+<body>
     <?php
     include("includes/header.php");
     include("includes/navmenu.php");
     ?>
+
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <section class="welcome-box pt-5 pb-2 text-center shadow-sm">
+                    <h2> Velkommen Alice </h2>
+                </section>
+
+                <section class="mt-3">
+                    <div class="custom-card ">
+                        <a href="projekter.php" class="overlay-link">
+                            <img src="images/projekter1.jpg" class="img-fluid rounded" alt="">
+                            <div class="card-overlay">
+                                <h3 class="overlay-text"> Fortsæt fra hvor du slap </h3>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+
+                <section class="mt-3">
+                    <h3> Catch up med dit fællesskab </h3>
+                    <div id="communityCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="faellesskab.php">
+                                    <img src="images/fælleskab3.jpg" class=" img-fluid rounded" alt="">
+                                    <div class="carousel-caption p-2 text-sandstone bg-cinnamon rounded"> Marianne har postet et billed! </div>
+                                </a>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="faellesskab.php">
+                                    <div class="carousel-caption p-2 text-sandstone bg-cinnamon rounded"> Bente har postet en update! </div>
+                                    <img src="images/fælleskab1.jpg" class=" img-fluid rounded" alt="">
+
+                                </a>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#communityCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#communityCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </section>
+
+                <section class="mt-3">
+                    <div class="custom-card">
+                        <a href="laer.php" class="overlay-link">
+                            <img src="images/fælleskab%202.jpg" class="img-fluid rounded" alt="">
+                            <div class="card-overlay">
+                                <h3 class="overlay-text"> Lær mere </h3>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+
+                <section class="mt-3">
+                    <h3> Prøv vores nye garn-beregner </h3>
+                    <a class="row">
+                        <a class="col mt-2" href="beregner.php">
+                            <button class="btn btn-cinnamon text-sandstone"> Beregn garnforbrug </button>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

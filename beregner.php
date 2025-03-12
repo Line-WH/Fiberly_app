@@ -18,12 +18,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="bg-mesa">
+<body>
 <?php
 include("includes/header.php");
 ?>
 
-    <div class="container">
+    <div class="container pt-5">
         <h2 class="text-center m-3">Garnberegner</h2>
         <div class="card p-4 shadow bg-mahogany text-sandstone">
             <form id="garnForm">
@@ -75,8 +75,6 @@ include("includes/header.php");
         const maskerPer10cm = parseFloat(document.getElementById("maskerPer10cm").value);
         const raekkerPer10cm = parseFloat(document.getElementById("raekkerPer10cm").value);
         const meterPerNoegle = parseFloat(document.getElementById("meterPerNoegle").value);
-
-        console.log(bredde);
 
         // Sikrer at input er gyldigt
         if (isNaN(bredde) || isNaN(laengde) || isNaN(maskerPer10cm) || isNaN(raekkerPer10cm) || isNaN(meterPerNoegle) || meterPerNoegle <= 0) {
