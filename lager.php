@@ -201,13 +201,13 @@ include("includes/navmenu.php");
         foreach($garnlager as $garn) {
             ?>
             <div class="col-12">
-                <div class="card">
+                <div class="card mb-3">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 ">
                             <?php if (!empty($garn->garnBillede)) : ?>
                                 <img src="<?= htmlspecialchars($garn->garnBillede); ?>" alt="Billede af <?= htmlspecialchars($garn->garnNavn); ?>" class="img-fluid" style="max-width: 200px;">
                             <?php else : ?>
-                                <img src="images/intet-billede.png" class="img-fluid" style="max-width: 200px;">
+                                <img src="images/intet-billede.png" class="img-fluid object-fit-contain" style="max-width: 150px;">
                             <?php endif; ?>
                         </div>
                         <div class="col-8 align-content-center">
