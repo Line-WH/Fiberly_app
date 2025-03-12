@@ -103,7 +103,7 @@ include("includes/navmenu.php");
                                         <input class="form-control" type="file" id="formFile">
                                     </div>
                                     <div class="col-auto mt-4 mb-2">
-                                        <button type="submit" class="btn w-100">Tilføj garn til lager</button>
+                                        <button type="submit" class="btn reg-btn w-100">Tilføj garn til lager</button>
                                     </div>
                                 </div>
                             </form>

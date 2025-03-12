@@ -96,7 +96,7 @@ require "settings/init.php";
                     <h3> Prøv vores nye garn-beregner </h3>
                     <a class="row">
                         <a class="col mt-2" href="beregner.php">
-                            <button class="btn btn-cinnamon text-sandstone"> Beregn garnforbrug </button>
+                            <button class="btn reg-btn"> Beregn garnforbrug </button>
                         </a>
                     </div>
                 </section>

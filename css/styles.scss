@@ -59,6 +59,10 @@ body {
 	flex-shrink: 0;
 }
 
+.custom-btn:hover {
+	color: #E3CDBB;
+}
+
 .navbar-container {
 	display: flex;
 	justify-content: space-around !important;
@@ -149,8 +153,9 @@ body {
 	opacity: 1;
 }
 
-.btn {
-
+.reg-btn {
+	background: #90553C;
+	color: #FFFEF2;
 }
 
 
