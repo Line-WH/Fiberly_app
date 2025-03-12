@@ -47,7 +47,7 @@ include("includes/header.php");
                     <label class="form-label">Meter garn pr. nøgle:</label>
                     <input type="number" class="form-control" id="meterPerNoegle" required>
                 </div>
-                <button type="submit" class="btn btn-cinnamon text-sandstone w-100">Beregn garnforbrug</button>
+                <button type="submit" class="btn reg-btn w-100">Beregn garnforbrug</button>
             </form>
         </div>
 

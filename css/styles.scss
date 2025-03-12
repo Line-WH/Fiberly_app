@@ -59,6 +59,10 @@ body {
 	flex-shrink: 0;
 }
 
+.custom-btn:hover {
+	color: #E3CDBB;
+}
+
 .navbar-container {
 	display: flex;
 	justify-content: space-around !important;
@@ -147,6 +151,11 @@ body {
 
 .overlay-link:hover .overlay-text {
 	opacity: 1;
+}
+
+.reg-btn {
+	background: #90553C;
+	color: #FFFEF2;
 }
 
 
