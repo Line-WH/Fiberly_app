@@ -32,7 +32,7 @@ require "settings/init.php";
 
 
 
-    <div class="card mb-3 m-3" style="max-width: 540px;">
+    <div class="card mb-3 m-3 mt-3 p-3" style="max-width: 540px;">
         <div class="row g-0">
             <div class="col-md-8">
                 <div class="card-body d-flex align-items-center">
