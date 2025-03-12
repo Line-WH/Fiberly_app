@@ -99,8 +99,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 include("includes/header.php");
 include("includes/navmenu.php");
 ?>
-<div class="container">
-    <div class="row w-100">
+<div class="container mt-5 pt-3">
+    <div class="row w-100 mb-4">
         <div class="col-12">
             <h1>Dit garnlager</h1>
         </div>
@@ -194,9 +194,9 @@ include("includes/navmenu.php");
         </div>
     </div>
     <div class="row gy-3 w-100">
-        <h3>Dét har du på lager</h3>
+        <h2 class="h3">Dét har du på lager</h2>
         <?php
-        $sql = "SELECT * FROM garnlager ORDER BY garnNavn ASC";
+        $sql = "SELECT * FROM garnlager ORDER BY garnId DESC";
         $garnlager = $db->sql($sql);
         foreach($garnlager as $garn) {
             ?>
@@ -210,24 +210,26 @@ include("includes/navmenu.php");
                                 <img src="images/intet-billede.png" class="img-fluid" style="max-width: 200px;">
                             <?php endif; ?>
                         </div>
-                        <div class="col-8">
-                            <div class="card-header">
-                                <h2>
-                                    <?php
-                                    echo $garn->garnNavn;
-                                    ?>
-                                </h2>
+                        <div class="col-8 align-content-center">
+                            <p class="p-0 m-0 text-uppercase text-muted fw-light"><small>
+                                <?php echo $garn->garnMateriale . ", " . $garn->garnFarve;?>
+                                </small></p>
+                            <h3 class="h4 mb-3">
+                                <?php echo $garn->garnNavn; ?>
+                            </h3>
+                            <div class="row mb-2">
+                                <div class="col-auto">
+                                   <img src="images/Ikoner_knitting.png" style="max-width: 15px"> <?php echo $garn->garnStrPind; ?>
+                                </div>
+                                <div class="col-auto">
+                                    <img src="images/Ikoner_chrochet.png" style="max-width: 15px"> <?php echo $garn->garnStrNaal; ?>
+                                </div>
+                            </div>
+                            <div class="text-muted">
+                                Antal på lager: <?php echo htmlspecialchars($garn->garnAntal); ?><br>
+                                (<?php echo $garn->garnStatus == 0 ? "Åbnet" : "Uåbnet"; ?>)
                             </div>
 
-                            <div class="card-body">
-                            </div>
-
-                            <div class="card-footer">
-                                <?php
-                                echo $garn->garnFarve;
-                                ?> <br>
-                                Materiale: <?php echo $garn->garnMateriale ?>
-                            </div>
                     </div>
                 </div>
             </div>
